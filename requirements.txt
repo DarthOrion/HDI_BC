@@ -1,0 +1,11 @@
+# Geospatial Python dependencies for the HDI / human-pressure mapping workflow
+# Recommended installation on Windows: conda-forge (see README), because GDAL,
+# Rasterio, Fiona, and GeoPandas must use compatible compiled geospatial libraries.
+
+numpy>=1.24
+geopandas>=0.14
+rasterio>=1.3
+GDAL>=3.6
+
+# Imported standard-library modules (os, glob, fnmatch, pathlib) do not need
+# to be listed because they are included with Python.
